@@ -1,0 +1,10 @@
+logging:
+  level:
+    org:
+      cloudfoundry:
+        example: DEBUG
+
+route.service.abtest.domainA: sample-web-conjunctional-ophthalmia.cfapps.io
+route.service.abtest.domainB: sample-web-v2-preinflectional-compliancy.cfapps.io
+route.service.abtest.domainAPercentage: 70
+route.service.abtest.domainBPercentage: 30
